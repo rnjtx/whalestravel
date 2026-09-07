@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="dvWater" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2fd6ec"/>
+    <stop offset="0.55" stop-color="#0f7fa3"/>
+    <stop offset="1" stop-color="#053a4d"/>
+  </linearGradient>
+</defs>
+<rect width="400" height="300" fill="url(#dvWater)"/>
+<polygon points="60,0 100,0 40,160 0,160" fill="#ffffff" opacity="0.06"/>
+<polygon points="160,0 210,0 130,180 90,180" fill="#ffffff" opacity="0.05"/>
+<polygon points="280,0 330,0 250,170 210,170" fill="#ffffff" opacity="0.05"/>
+<g opacity="0.95">
+  <ellipse cx="70" cy="255" rx="55" ry="30" fill="#e8734f"/>
+  <ellipse cx="140" cy="270" rx="65" ry="26" fill="#f0a13a"/>
+  <ellipse cx="230" cy="260" rx="60" ry="32" fill="#c95a8a"/>
+  <ellipse cx="320" cy="272" rx="70" ry="24" fill="#e8734f"/>
+  <ellipse cx="180" cy="280" rx="90" ry="20" fill="#7a3f8a" opacity="0.7"/>
+</g>
+<g transform="translate(150,110)">
+  <ellipse rx="26" ry="16" fill="#123a52"/>
+  <circle cx="24" cy="-4" r="12" fill="#123a52"/>
+  <circle cx="27" cy="-6" r="6" fill="#bfe9f2" opacity="0.8"/>
+  <path d="M-24,0 Q-42,-8 -55,2" stroke="#123a52" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M-24,8 Q-40,20 -52,14" stroke="#123a52" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M20,14 L40,34" stroke="#123a52" stroke-width="9" stroke-linecap="round"/>
+  <path d="M4,16 L18,40" stroke="#123a52" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="8" cy="-26" r="4" fill="#ffffff" opacity="0.6"/>
+  <circle cx="14" cy="-40" r="6" fill="#ffffff" opacity="0.5"/>
+  <circle cx="10" cy="-58" r="8" fill="#ffffff" opacity="0.4"/>
+</g>
+<g fill="#ffd166" opacity="0.9">
+  <polygon points="300,70 320,80 300,90 292,80"/>
+  <polygon points="330,95 348,103 330,111 323,103"/>
+</g>
+<g fill="#ff8fa3" opacity="0.85">
+  <polygon points="60,60 78,68 60,76 52,68"/>
+</g>
+</svg>

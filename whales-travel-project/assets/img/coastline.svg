@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="csSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#123a52"/>
+    <stop offset="1" stop-color="#6fd3ea"/>
+  </linearGradient>
+  <linearGradient id="csMtn" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3c5f78"/>
+    <stop offset="1" stop-color="#6a8ea0"/>
+  </linearGradient>
+  <linearGradient id="csSea" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0e9dbe"/>
+    <stop offset="1" stop-color="#a6f3ef"/>
+  </linearGradient>
+</defs>
+<rect width="400" height="300" fill="url(#csSky)"/>
+<polygon points="0,140 70,90 150,135 230,80 300,130 400,95 400,170 0,170" fill="url(#csMtn)"/>
+<rect y="160" width="400" height="140" fill="url(#csSea)"/>
+<path d="M0,195 Q100,183 200,195 T400,190" stroke="#ffffff" stroke-opacity="0.25" stroke-width="3" fill="none"/>
+<path d="M0,225 Q100,213 200,225 T400,220" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3" fill="none"/>
+<path d="M0,260 Q100,248 200,260 T400,255" stroke="#ffffff" stroke-opacity="0.12" stroke-width="3" fill="none"/>
+</svg>

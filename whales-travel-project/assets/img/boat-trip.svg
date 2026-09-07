@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="btSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0f4b73"/>
+    <stop offset="1" stop-color="#6fd3ea"/>
+  </linearGradient>
+  <linearGradient id="btSea" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0e9dbe"/>
+    <stop offset="1" stop-color="#8ff0ee"/>
+  </linearGradient>
+  <radialGradient id="btSun" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="400" height="300" fill="url(#btSky)"/>
+<circle cx="320" cy="55" r="85" fill="url(#btSun)"/>
+<rect y="150" width="400" height="150" fill="url(#btSea)"/>
+<path d="M0,175 Q100,165 200,175 T400,175" stroke="#ffffff" stroke-opacity="0.25" stroke-width="3" fill="none"/>
+<path d="M0,205 Q100,195 200,205 T400,205" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3" fill="none"/>
+<path d="M0,240 Q100,230 200,240 T400,240" stroke="#ffffff" stroke-opacity="0.14" stroke-width="3" fill="none"/>
+<ellipse cx="205" cy="200" rx="150" ry="12" fill="#ffffff" opacity="0.22"/>
+<g transform="translate(90,120)">
+  <path d="M0,68 L230,68 L208,92 L28,92 Z" fill="#f3f8f9"/>
+  <path d="M16,68 L214,68 L200,38 L34,36 Z" fill="#ffffff"/>
+  <rect x="58" y="42" width="20" height="15" rx="2" fill="#0c2748"/>
+  <rect x="94" y="42" width="20" height="15" rx="2" fill="#0c2748"/>
+  <rect x="130" y="42" width="20" height="15" rx="2" fill="#0c2748"/>
+  <rect x="108" y="0" width="7" height="40" fill="#dfe8ea"/>
+  <path d="M115,0 L150,30 L115,30 Z" fill="#ffffff" opacity="0.9"/>
+</g>
+</svg>

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="hSky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0a2340"/>
+    <stop offset="0.55" stop-color="#1c5b82"/>
+    <stop offset="1" stop-color="#5fd0e6"/>
+  </linearGradient>
+  <linearGradient id="hSea" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0a92b8"/>
+    <stop offset="0.5" stop-color="#12c2d6"/>
+    <stop offset="1" stop-color="#8fefee"/>
+  </linearGradient>
+  <linearGradient id="hMtnBack" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3c5f78"/>
+    <stop offset="1" stop-color="#5b7f92"/>
+  </linearGradient>
+  <linearGradient id="hMtnFront" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7a6248"/>
+    <stop offset="1" stop-color="#b48a5e"/>
+  </linearGradient>
+  <radialGradient id="hSun" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0" y="0" width="1600" height="900" fill="url(#hSky)"/>
+<circle cx="1280" cy="190" r="230" fill="url(#hSun)"/>
+<polygon points="0,470 120,400 260,455 420,375 600,440 760,390 900,450 1060,400 1240,460 1400,410 1600,450 1600,560 0,560" fill="url(#hMtnBack)" opacity="0.85"/>
+<polygon points="0,520 150,455 340,500 520,430 700,495 880,440 1080,505 1260,450 1440,500 1600,470 1600,600 0,600" fill="url(#hMtnFront)"/>
+<rect x="0" y="540" width="1600" height="360" fill="url(#hSea)"/>
+<path d="M0,600 Q200,585 400,600 T800,600 T1200,600 T1600,600" stroke="#ffffff" stroke-opacity="0.18" stroke-width="4" fill="none"/>
+<path d="M0,660 Q200,645 400,660 T800,660 T1200,660 T1600,660" stroke="#ffffff" stroke-opacity="0.14" stroke-width="4" fill="none"/>
+<path d="M0,730 Q200,715 400,730 T800,730 T1200,730 T1600,730" stroke="#ffffff" stroke-opacity="0.10" stroke-width="4" fill="none"/>
+<ellipse cx="1000" cy="700" rx="220" ry="18" fill="#ffffff" opacity="0.18"/>
+<g transform="translate(870,585)">
+  <path d="M0,95 L260,95 L235,120 L35,120 Z" fill="#eef5f7"/>
+  <path d="M20,95 L240,95 L225,60 L45,58 Z" fill="#ffffff"/>
+  <rect x="70" y="65" width="24" height="18" rx="2" fill="#123a52"/>
+  <rect x="110" y="65" width="24" height="18" rx="2" fill="#123a52"/>
+  <rect x="150" y="65" width="24" height="18" rx="2" fill="#123a52"/>
+  <rect x="120" y="15" width="8" height="45" fill="#dfe8ea"/>
+  <path d="M128,15 L165,50 L128,50 Z" fill="#ffffff" opacity="0.9"/>
+</g>
+</svg>
